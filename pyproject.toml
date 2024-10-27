@@ -1,0 +1,36 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[project]
+authors = [
+    {name = "Astitwa S. Lathe", email = "astitwlathe@gmail.com"},
+    {name = "Daniel Luo", email = "dan.luo1996@gmail.com"},
+    {name = "Mick Yang", email = "mickyang@seas.upenn.edu"},
+]
+description = "Benchmark for assessing legal capabilities of LLM agents"
+name = "agent_bench"
+readme = "README.md"
+requires-python = ">=3.8.2"
+version = "0.0.1"
+dependencies = ["inspect-ai>=0.3.42"]
+
+[project.optional-dependencies]
+dev = ["pre-commit", "pytest"]
+
+[tool.isort]
+include_trailing_comma = true
+line_length = 88
+multi_line_output = 3
+profile = "black"
+py_version = 39
+use_parentheses = true
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+where = ["*.tsv*"]
+
+[tool.setuptools.packages]
+find = {}

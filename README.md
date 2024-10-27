@@ -29,7 +29,7 @@ pip install -e .
     inspect eval example.py --model ollama/llama3.2
     ```
 - NOTE: if you receive the error `PermissionError: [Errno 13] Permission denied: '/run/user/1000'`, try setting the following environment variable:
-```bash
-export XDG_RUNTIME_DIR=/tmp
-```
-and re-running. 
+    ```bash
+    export XDG_RUNTIME_DIR=/tmp
+    ```
+    and re-running. 

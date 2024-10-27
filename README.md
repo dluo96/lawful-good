@@ -13,16 +13,16 @@ cd agent-bench
 pip install -e .
 ```
 
-### Run Example with Ollama
+### Example Evaluation with Ollama
 - Install [ollama](https://ollama.com/download). On Linux, simply run
     ```bash
     curl -fsSL https://ollama.com/install.sh | sh
     ```
-- Run (say) Llama 3B:
+- Run (say) Llama2 3B:
     ```
     ollama run llama3.2
     ```
-    This will automatically pull (download) Llama 3B for you. 
+    This will automatically pull (download) Llama2 3B for you and then run.
 
 - Run the example evaluation script:
     ```bash
@@ -32,3 +32,4 @@ pip install -e .
 ```bash
 export XDG_RUNTIME_DIR=/tmp
 ```
+and re-running. 

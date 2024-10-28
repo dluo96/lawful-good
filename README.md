@@ -1,15 +1,15 @@
-# AgentBench
-Benchmark for assessing legal capabilities of LLM agents!
+# Lawful Good
+A benchmark for assessing...
 
 ## Get Started
 Clone the repo:
 ```bash
-git clone git@github.com:dluo96/agent-bench.git
+git clone git@github.com:dluo96/lawful-good.git
 ```
 
 Install:
 ```bash
-cd agent-bench
+cd lawful-good
 pip install -e .
 ```
 

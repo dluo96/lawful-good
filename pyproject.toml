@@ -9,7 +9,7 @@ authors = [
     {name = "Mick Yang", email = "mickyang@seas.upenn.edu"},
 ]
 description = "Benchmark for assessing legal capabilities of LLM agents"
-name = "agent_bench"
+name = "lawful_good"
 readme = "README.md"
 requires-python = ">=3.8.2"
 version = "0.0.1"

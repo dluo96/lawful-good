@@ -9,11 +9,10 @@ authors = [
     {name = "Mick Yang", email = "mickyang@seas.upenn.edu"},
 ]
 description = "Benchmark for assessing legal capabilities of LLM agents"
-name = "lawful_good"
+name = "lg"
 readme = "README.md"
 requires-python = ">=3.8.2"
 version = "0.0.1"
-dependencies = ["inspect-ai>=0.3.42", "openai>=1.52.2"]
 
 [project.optional-dependencies]
 dev = ["pre-commit", "pytest"]

@@ -17,7 +17,7 @@ from inspect_ai.solver import Solver, basic_agent, system_message
 from inspect_ai.solver import TaskState
 from inspect_ai.tool import web_browser
 
-from inspect_evals.lawful_good.prompts import (
+from lg.prompts import (
     ONE_SHOT_ASSISTANT_MESSAGE,
     ONE_SHOT_USER_MESSAGE,
     SYSTEM_MESSAGE,

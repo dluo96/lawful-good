@@ -18,21 +18,5 @@ Strictly follow these instructions:
 - If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls
 """.strip()
 
-ONE_SHOT_QUESTION = (
-    "Which member of the famous Beckham couple has the most Instagram followers?"
-)
-
-ONE_SHOT_EXAMPLE = """
-Intermediate question: Who are the members of the famous Beckham couple?
-Intermediate answer: The members of the Beckham couple are Victoria Beckham and David Beckham.
-Intermediate question: How many followers does Victoria Beckham have on Instagram?
-Intermediate answer: Victoria Beckham has 32.8M followers on Instagram.
-Intermediate question: How many followers does David Beckham have on Instagram?
-Intermediate answer: David Beckham has 87.1M followers on Instagram.
-The final answer is: David Beckham
-""".strip()
-
 
 SYSTEM_MESSAGE = ChatMessageSystem(content=SYSTEM_PROMPT)
-ONE_SHOT_USER_MESSAGE = ChatMessageUser(content=ONE_SHOT_QUESTION)
-ONE_SHOT_ASSISTANT_MESSAGE = ChatMessageAssistant(content=ONE_SHOT_EXAMPLE)

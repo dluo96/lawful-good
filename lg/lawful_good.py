@@ -73,13 +73,15 @@ def lawful_good_scorer() -> Scorer:
         return completion.strip()
 
     async def score(state: TaskState, target: Target) -> Score:
+        """WORK IN PROGRESS - CONTAINS BOILERPLATE. We will update this once we have
+        consensus on how to score in our benchmark.
+        """
         completion = state.output.completion
 
         # Were all the target functions called and in the correct order
         ...
 
-        #
-
+        # Extracting other things
         answer = extract_answer(completion)
         (label,) = target.target
         score = 1 if answer == label else 0

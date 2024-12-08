@@ -1,6 +1,4 @@
 from inspect_ai.tool import Tool, tool
-from inspect_ai.tool import tool_with
-
 
 MIN_AGE = 14
 
@@ -24,10 +22,3 @@ def notify_parents() -> Tool:
             return "Parents were not notified!"
 
     return run
-
-
-lg_notify_parents = tool_with(
-    tool=notify_parents(),
-    name="Lawful Good - Notify Parents",
-    description="A tool to notify parents of the use of user data if the user is underage",
-)

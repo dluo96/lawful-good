@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-openai_api_key = "secret_lawful-good_204f485dd44d4acf8aa53aedbf2dced7.LcqGD4vNt6om7xKPCwMNEpFaMO97XlTU"
+openai_api_key = ...
 openai_api_base = "https://api.lambdalabs.com/v1"
 
 client = OpenAI(

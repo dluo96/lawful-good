@@ -43,3 +43,9 @@ pip install -e .
     export XDG_RUNTIME_DIR=/tmp
     ```
     and re-running. 
+
+
+### Analyse evaluation runs with Inspect view
+```shell
+inspect view --log-dir lg/logs
+```
